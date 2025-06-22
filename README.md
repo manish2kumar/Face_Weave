@@ -1,4 +1,4 @@
-# FaceWeave: Real-Time Face Mesh Detection App
+# Face Weave: Real-Time Face Mesh Detection App
 
 **FaceWeave** is a real-time Android app that uses **Google's ML Kit** to perform on-device **face detection**, **image labeling**, and **face mesh overlay**. Built with **CameraX**, **Kotlin Coroutines**, and **Material Design**, it demonstrates a smooth ML experience on mobile using official tools only—no third-party ML libraries involved.
 
