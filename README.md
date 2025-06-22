@@ -1,6 +1,6 @@
 # FaceWeave: Real-Time Face Mesh Detection App
 
-FaceWeave is a real-time Android application that demonstrates on-device face detection, image labeling, and face mesh overlay using **Google's ML Kit**. Built with **CameraX**, **Kotlin Coroutines**, and **Material Design**, the app showcases how to create a performant, camera-based ML experience without relying on third-party libraries.
+**FaceWeave** is a real-time Android app that uses **Google's ML Kit** to perform on-device **face detection**, **image labeling**, and **face mesh overlay**. Built with **CameraX**, **Kotlin Coroutines**, and **Material Design**, it demonstrates a smooth ML experience on mobile using official tools only—no third-party ML libraries involved.
 
 ---
 
@@ -33,22 +33,26 @@ FaceWeave is a real-time Android application that demonstrates on-device face de
 
 ## 🛠️ Built With
 
-- [ML Kit](https://developers.google.com/ml-kit)
+- [ML Kit Face Detection](https://developers.google.com/ml-kit/vision/face-detection/android)
+- [ML Kit Face Mesh (beta)](https://developers.google.com/ml-kit/vision/face-mesh-detection)
+- [ML Kit Image Labeling](https://developers.google.com/ml-kit/vision/image-labeling)
 - [CameraX](https://developer.android.com/training/camerax)
-- Kotlin Coroutines
-- Android Jetpack (ViewModel, Lifecycle)
-- Material Components
+- Kotlin, Coroutines, ViewModel
+- Material Design Components
 
 ---
 
 ## 🧪 How It Works
 
-1. **CameraX** captures frames and feeds them to ML Kit processors.
-2. ML Kit performs:
-   - Face Detection with landmark and contour extraction.
-   - Image Labeling from preview frames.
-   - Face Mesh landmark extraction for overlay.
-3. Results are drawn live on a custom `OverlayView`.
+1. **CameraX** captures camera frames in real time.
+2. Each frame is analyzed by:
+   - ML Kit’s **Face Detector** to retrieve attributes and bounding boxes.
+   - ML Kit’s **Image Labeler** to classify objects in the frame.
+   - ML Kit’s **Face Mesh Detector** to identify facial landmarks.
+3. Results are drawn on:
+   - An `ImageView` (captured frame),
+   - A custom `FaceMeshOverlay` (landmark sketch),
+   - TextViews (probabilities and labels).
 
 ---
 
@@ -65,3 +69,4 @@ cd FaceWeave
 - Open the project in Android Studio.
 
 - Build and run the application on your Android device or emulator.
+  💡 The app requires camera and storage permissions. Grant them when prompted.
