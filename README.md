@@ -69,4 +69,4 @@ cd FaceWeave
 - Open the project in Android Studio.
 
 - Build and run the application on your Android device or emulator.
-  💡 The app requires camera and storage permissions. Grant them when prompted.
+- 💡 The app requires camera and storage permissions. Grant them when prompted.
