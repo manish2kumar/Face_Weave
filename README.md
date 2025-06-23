@@ -25,12 +25,12 @@
 
 ## 📸 Screenshots
 
-<P>
-  <img src="https://github.com/manish2kumar/Face_Weave/blob/main/screenshots/Image_1.jpeg" width="220" height="450">
-  <img src="https://github.com/manish2kumar/Face_Weave/blob/main/screenshots/Image_2.jpeg" width="220" height="450">
-  <img src="https://github.com/manish2kumar/Face_Weave/blob/main/screenshots/Image_3.jpeg" width="220" height="450">
+<p>
+  <img src="https://github.com/manish2kumar/Face_Weave/blob/main/screenshots/Image_1.jpeg" width="220" height="450" style="margin-right: 10px;">
+  <img src="https://github.com/manish2kumar/Face_Weave/blob/main/screenshots/Image_2.jpeg" width="220" height="450" style="margin-right: 10px;">
+  <img src="https://github.com/manish2kumar/Face_Weave/blob/main/screenshots/Image_3.jpeg" width="220" height="450" style="margin-right: 10px;">
   <img src="https://github.com/manish2kumar/Face_Weave/blob/main/screenshots/Image_4.jpeg" width="220" height="450">
-</P>
+</p>
 
 ---
 
