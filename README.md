@@ -66,7 +66,7 @@ To install the application, follow these steps:
 - Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/FaceWeave.git
+git clone https://github.com/manish2kumar/FaceWeave.git
 cd FaceWeave
 ```
 - Open the project in Android Studio.
